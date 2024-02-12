@@ -95,8 +95,8 @@ margin-top: -3%;
     background-color: #717171;
   }
   
-  /* Fading animation */
-  .fade {
+ 
+  .fade { /* Fading animation */
     animation-name: fade;
     animation-duration: 1.5s;
   }
@@ -210,42 +210,18 @@ body, html {
       border-radius: 25px;
     }
   
-    .ribbon {
-      width: 70px;
-      font-size: 14px;
-      padding: 8px;
-      position: absolute;
-      right: -25px;
-      top: -12px;
-      text-align: center;
-      border-radius: 25px;
-      transform: rotate(20deg);
-      background-color: #ff9800;
-      color: white;
-    }
+   
     
     
-    .ribbon1 {
-      width: 90px;
-      font-size: 14px;
-      padding: 8px;
-      position: absolute;
-      right: -10px;
-      top: 15px;
-      text-align: center;
-      border-radius: 25px;
-      transform: rotate(33deg);
-      background-color: #ff9800;
-      color: white;
-      
-    }
+    
+    
     .ribbon2 {
       width: 50px;
-      font-size: 17px;
+      font-size: 19px;
       padding: 10px;
       position: absolute;
       right: 10px;
-      top: 10px;
+      top: 8px;
       text-align: center;
       border-radius: 100%;
       
@@ -296,8 +272,9 @@ body, html {
 .topnav {
   overflow: hidden;
   background-color: hsl(#04AA6D);
+  height: 32pt;
 }
-
+.
 
 
 /* Change the color of links on hover */
