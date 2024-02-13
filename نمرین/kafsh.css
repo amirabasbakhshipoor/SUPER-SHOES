@@ -9,7 +9,7 @@ img.aa
 {
 width: 210pt;
 height: 170pt;
-margin-left: 35%;
+margin-left: 40%;
 margin-right: 55%;
 margin-top: -3%;
 
@@ -21,7 +21,7 @@ margin-top: -3%;
 
   /* Slideshow container */
   .slideshow-container {
-    max-width: 1000pt;
+    max-width: 1100pt;
     position: relative;
     margin: auto;
     margin-top: -1%;
@@ -33,11 +33,11 @@ margin-top: -3%;
     
   }
   .seze{
-    width: 970pt;
-    height: 400pt;
+    width: 1060pt;
+    height: 450pt;
     border-radius: 3%;
+    margin-left: 0.5%;
     
-    margin: auto;
 
   }
   
@@ -82,7 +82,7 @@ margin-top: -3%;
  
   .fade { /* Fading animation */
     animation-name: fade;
-    animation-duration: 2s;
+    animation-duration: 5;
   }
   
   @keyframes fade {
@@ -137,6 +137,7 @@ body, html {
     text-align: right;
     background-color: rgb(255, 255, 255);
     
+    
   }
   
   /* Display the columns below each other instead of side by side on small screens */
@@ -159,6 +160,7 @@ body, html {
   .container {
     padding: 18px;
     border-radius: 12%;
+    font-size: 130%;
   }
   
   /* Clear floats */
@@ -178,18 +180,19 @@ body, html {
   }
     .row{
       margin-left:7%;
-      margin-top: 10%;
+      margin-top:10%;
     }
     .button {
       border: none;
       border-radius: 5px;
-      padding: 10px 80px;
+      padding: 13px 85px;
       font-size: 16px;
       cursor: pointer;
       background-color: #f31212;
       color: white;
       position: relative;
       border-radius: 25px;
+       margin-right: 8%;
     }
   
    
@@ -246,6 +249,7 @@ body, html {
   {
     background-color: rgb(255, 255, 255);
     font-family: iran;
+    
   }
   
   /*lمنو شروع
