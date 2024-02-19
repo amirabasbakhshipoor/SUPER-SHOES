@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="kafsh.css">
+</head>
+
+<body>
+    
+  <a href="kafsh.html"><button class="eee">بازگشت</button></a>
+    <span class="tag-cloud">سوالات متداول</span>
+    <h2 class="asdf"  >پاسخ سوالات خود را از دسته بندی زیر پیدا کنید      </h2>
+    <button class="accordion">چطور می توانیم از سایت شما خرید کنیم؟</button>
+<div class="panel">
+  <p>  کالای مورد نظر را انتخاب کنید بعد روی گزینه خرید کلیک کنید در صحفه بعد مشخصات کالا (رنگ,سایز و......) را انتخاب کنید و بعد به روی دکمه خرید کلیک کنید و اطلاعات خود را تکمیل کنید </p>
+</div>
+
+<button class="accordion">چقدر طول می کشد محصول به دست من برسد؟</button>
+<div class="panel">
+  <p>محصول ما توسط پست به سراسر کشور ارسال می شود و معمولا 2  تا 7 روز پس از سفارش محصول طول می کشد</p>
+</div>
+
+<button class="accordion">هزینه ارسال پست چقدر است؟</button>
+<div class="panel">
+  <p>هزینه پست کاملا رایگان هست </p>
+</div>
+<button class="accordion">اگر محصول پس از 7 روز به دستم نرسید چه کنم؟</button>
+<div class="panel">
+  <p>اگر محصول پس از 7 روز محصول به دست شما نرسید به سایت پست ایران مراجعه کنید و با کد پیگیری محصول محصول خود را پیگیری کنید </p>
+</div>
+<button class="accordion">کد پیگیری محصول رو ندارم چیکار کنم؟</button>
+<div class="panel">
+  <p>به بخش ارتباط با ما بروید و به ادمین های ما ارتباط برقرار کنید تا کد محصول را برای شما ارسال کنند</p>
+</div>
+<button class="accordion">آیا امکان تعویض دارید؟</button>
+<div class="panel">
+  <p>بله ما تا 1 هفته بعد از تحویل کالا امکان تعویض را برای شما داریم</p>
+</div>
+<button class="accordion">آیا کیفیت کفش های خود را تضمین می کنید؟</button>
+<div class="panel">
+  <p>بله تمامی کالا های ما تا 3 ماه تضمین می شوند</p>
+</div>
+<button class="accordion">آیا امکان خرید حضوری دارید؟</button>
+<div class="panel">
+  <p>خیر فروشگاه ما آنلاین شاپ است و امکان خرید حضوری ندارد</p>
+</div>
+<button class="accordion">آیا امکان لغو سفارش وجود دارد؟</button>
+<div class="panel">
+  <p>بله شما تا 1 روز امکان لغو سفارش دارید </p>
+</div>
+<button class="accordion">شرایط پرداخت شما چیست؟</button>
+<div class="panel">
+  <p>شما می توانید فقط به صورت آنلاین  هزینه را پرداخت کنید</p>
+</div>
+
+<button class="accordion">آیا کالا های شما دارای تخفیف هستند؟</button>
+<div class="panel">
+  <p> بله تمام محصولات ما دارای تخفیف هستند که درصد تخفیف هر کدام رئ محصول قرار گرفته است</p>
+</div>
+<script>var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+    
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+      
+    }</script>
+      </body>
+      </html>
