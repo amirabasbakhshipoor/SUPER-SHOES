@@ -1,7 +1,6 @@
-.container {
-display: flex;
- flex-wrap: wrap;
- /* سایر استایل‌ها */
+@media only screen and (max-width: 200px) {
+
+ /* استایل‌های خاص برای صفحات با عرض کوچکتر از 600 پیکسل */
   }
 /*لوگو*/
 img.aa 
