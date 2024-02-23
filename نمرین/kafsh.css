@@ -4,7 +4,7 @@ img.aa
 width: 210pt;
 height: 170pt;
 margin-left: 40%;
-margin-right: 55%;
+
 margin-top: -3%;
 
 
@@ -15,7 +15,7 @@ margin-top: -3%;
 
   /* Slideshow container */
   .slideshow-container {
-    max-width: 1100pt;
+    max-width: 1070pt;
     position: relative;
     margin: auto;
     margin-top: -1%;
@@ -438,7 +438,7 @@ margin-top: 1%;
   border-radius: 25px;
   background-color: #2ffd06;
   margin-top: 8px;
-  
+  font-size: 110%;
   margin-left: 30%;
 }
 .asdf{
@@ -457,3 +457,234 @@ margin-top: 1%;
    margin-right: 8%;
 }
 /*تمام*/
+
+
+.home{
+  font-size: 36px;
+  color: #00ff15;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*ارتباط*/
+
+.icon1{
+  max-width: 4.5%;
+  min-height: 4.5%;
+}
+.oiu{
+  font-size: 150%;
+  
+}
+.telg{
+  background-color: rgb(105, 211, 214);
+
+
+}
+.shad1{
+  background-color: #00ff15;
+  margin-top: -1%;
+}
+.rubik{
+  background-color: #f31212;
+  margin-top: -1%;
+}
+.ita{
+  background-color: #eec67b9c;
+  margin-top: -1%;
+}
+.icon2{
+  max-width: 3%;
+  min-height: 3%;
+}
+.shomareh{
+  font-size: 180%;
+}
+/*درباره فروشگاه*/
+.dbf
+{
+  text-align: right;
+  font-size: 150%;
+  margin-right: 0.5%;
+  margin-top: 5%;
+}
+.qwqw{
+  text-align: center;
+  margin-top: 25%;
+}
+
+
+.sdsd{
+  margin-left: 50%;
+}
+.ghfgg{
+   margin-top: -43%;
+  margin-left: 38%;
+  
+}
+.qwqwr{
+  text-align: left;
+margin-left: 29%;
+margin-top: 3%;
+}
+.ribbon1{
+width: 50px;
+font-size: 15px;
+padding: 8px;
+position: absolute;
+text-align: center;
+border-radius: 100%;
+margin-right: 55%;
+background-color: #ff9800;
+color: white;
+
+}
+.trtr{
+font-size: 80%;
+color: red;
+}
+.uuu{
+margin-left: 27%;
+height: 110%;
+}
+.sub{
+width: 20%;
+height: 110%;
+text-align: right;
+font-size: 100%;
+margin-top: 5%;
+}
+.gozin2{
+background-color: rgb(31, 160, 211);
+text-align: right;
+font-size: 120%;
+}
+.gozin1{
+background-color: rgb(255, 255, 255);
+text-align: right;
+font-size: 120%;
+}
+.gozin3{
+color: gainsboro;
+background-color: rgb(0, 0, 0);
+text-align: right;
+font-size: 120%;
+}
+.gozin4{
+background-color: rgb(255, 0, 0);
+text-align: right;
+font-size: 120%;
+}
+.gozin5{
+background-color: rgb(255, 231, 11);
+text-align: right;
+font-size: 120%;
+}
+.gozin7{
+  background-color: rgb(255, 141, 11);
+text-align: right;
+font-size: 120%;
+}
+.gozin8{
+  background-color: rgb(31, 255, 11);
+text-align: right;
+font-size: 120%;
+}
+.gozin9{
+  background-color: rgb(#a52a24);
+text-align: right;
+font-size: 120%;
+}
+.SAZ1{
+  text-align: right;
+font-size: 120%;
+}
+.sub1{
+  width: 20%;
+height: 110%;
+text-align: right;
+font-size: 100%;
+margin-top: 8%;
+
+
+}
+.LL{
+  font-size: 20pt;
+  padding: 6px;
+  background-color:#eb0000;
+  border-radius: 25px;
+  margin-left: 15%;
+}
+.lll{
+  margin-top: 150px;
+}
+
+
+
+.button1 {
+  border-radius: 4px;
+  background-color: #0000008e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 17px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 5%;
+  border-radius: 8%;
+  margin-left: 17%;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 70%;
+  border: 1px solid #ddd;
+  text-align: right;
+  margin-left: 30%;
+  margin-top: 8%;
+  font-size: 22px;
+}
+
+th, td {
+  text-align: right;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.ppo{
+  margin-left: -10%;
+}

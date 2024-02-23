@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kafsh.css">
+    <title>Document</title>
+    <style>
+      * {box-sizing: border-box}
+      body {font-family: Verdana, sans-serif; margin:0}
+      .mySlides {display: none}
+      img {vertical-align: middle;}
+      
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 850px;
+        position: relative;
+        margin: auto;
+       margin-left: 50%;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 15px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        ;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      .andazeh{
+        width: 470pt;
+    height: 430pt;
+    border-radius: 3%;
+      }
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+      }
+    
+      </style>
+</head>
+<body>
+    <div class="topnav">
+
+        <div id="myBtnContainer">
+              
+                <a class="men active" href="kafsh.html" onclick="filterSelection('all')">صحفه اصلی</a>
+                <a  class="men"  href="kafsh.html"  onclick="filterSelection('nature')">مردانه</a>
+                <a  class="men"  href="kafsh.html"onclick="filterSelection('cars')">زنانه</a>
+                <a h class="men"  href="kafsh.html" onclick="filterSelection('people')">بچگانه</a>
+               <a class="men"  onclick="openNav()">درباره ما</a>
+                <input type="text" placeholder="....جستجو">
+              </div>
+              </div>
+              <!--درباره ما-->
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <img  class="rer"  src="2.png" alt="eror">
+    <a href="kafsh1.html">سوالات متداول</a>
+    <a href="ertbat.html">ارتباط با ما</a>
+    <a href="drbrehfrosh.html">درباره فروشگاه ما</a>
+  </div>
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  <div id="main">
+  
+  </div>
+  <script>/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }</script>
+<div class="slideshow-container">
+
+  
+  
+  <div class="mySlides fade">
+
+    <img src="6a3801d5e64e8c28251b2e6ea22c018e76162ee4_1664377181.jpg" class="andazeh">
+  </div>
+  
+  <div class="mySlides fade">
+    
+    <img src="461f1c642fb79166fcf98c8e8384d43ced019b09_1664377154.jpg" class="andazeh">
+    
+  </div>
+  
+ 
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+
+  <br>
+  
+  <div style="text-align:center" class="sdsd">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    
+    
+  </div>
+  <div class="ghfgg">
+    <h1 class="ppo">کفش پاشنه بلند زنانه</h1>
+  </div >
+    <div class="qwqwr">
+    <h2  > 750000<del class="trtr"> 900000</del><span class="ribbon1">  20%</span></button> </h2>
+
+    </div>
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+<h2 class="uuu"> 
+   <select name="subject" class="sub1">
+    <option value="" selected="selected" class="gozin3"> مشکی</option>
+    
+  </select>
+  انتخاب رنگ
+</h2>
+  
+<h2 class="uuu"> 
+  <select name="subject" class="sub1">
+    
+        <option value="" selected="selected" class="SAZ1">38</option>
+       <option value="" selected="selected" class="SAZ1">39</option>
+       <option value="" selected="selected" class="SAZ1">40</option>
+       <option value="" selected="selected" class="SAZ1">41</option>
+       <option value="" selected="selected" class="SAZ1">42</option>
+       <option value="" selected="selected" class="SAZ1">43</option>
+       <option value="" selected="selected" class="SAZ1">44</option>
+       <option value="" selected="selected" class="SAZ1">45</option>
+   
+ </select>
+ انتخاب سایز
+</h2>
+<div class="lll">
+<span class="LL">لطفا سایز و رنگ را انتخاب کنید</span>
+</div>
+
+<button class="button1"><span>پرداخت</span></button>
+
+
+
+<table>
+  <tr>
+    
+    <th>نوع</th>
+    <th>مشخصات</th>
+  </tr>
+  <tr>
+    
+    <td> مشکی</td>
+    <td>رنگ</td>
+  </tr>
+  <tr>
+    <td>38.39,40,41,42,43,44.45</td>
+    <td>سایز</td>
+    
+  </tr>
+  <tr>
+    <td>......</td>
+    <td>جنس زیره</td>
+    
+    
+  </tr>
+  <tr>
+    <td>......</td>
+    <td>جنس رویه</td>
+    
+    
+  </tr>
+</table>
+</body>
+</html>
