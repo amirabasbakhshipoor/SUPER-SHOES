@@ -1,3 +1,12 @@
+@media screen and (max-width:550px){
+  .content{
+    flex-wrap: wrap;
+  }
+  .row{
+    flex-wrap: wrap;
+  }
+}
+
 /*لوگو*/
 img.aa 
 {
@@ -15,7 +24,7 @@ margin-top: -3%;
 
   /* Slideshow container */
   .slideshow-container {
-    max-width: 1070pt;
+    max-width: 1120pt;
     position: relative;
     margin: auto;
     margin-top: -1%;
@@ -27,7 +36,7 @@ margin-top: -3%;
     
   }
   .seze{
-    width: 1060pt;
+    width: 1110pt;
     height: 450pt;
     border-radius: 3%;
     margin-left: 0.5%;
@@ -160,7 +169,7 @@ body, html {
       border: none;
       border-radius: 5px;
       padding: 13px 85px;
-      font-size: 16px;
+      font-size: 20px;
       cursor: pointer;
       background-color: #f31212;
       color: white;
@@ -688,3 +697,4 @@ tr:nth-child(even) {
 .ppo{
   margin-left: -10%;
 }
+
