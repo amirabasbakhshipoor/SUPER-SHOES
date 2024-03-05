@@ -1,0 +1,46 @@
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: rgb(253, 253, 253);
+
+
+    }
+    .topnav{
+        width: 590px;
+    }
+   .seze{
+    width: 580px;
+    height: 300px;
+   }
+   .column{
+    float: left;
+    
+    width:50%;
+    margin-bottom: 18px;
+    padding: 0 15px;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+  }
+ .container {
+    padding: 8px;
+    border-radius: 12%;
+    font-size: 116%;
+  }
+  .row{
+    
+    margin-top:10%;
+    
+  }
+  .button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 75px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #f31212;
+    color: white;
+    position: relative;
+    border-radius: 25px;
+     margin-right: 8%;
+  }
+ 
+}

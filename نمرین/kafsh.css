@@ -12,6 +12,7 @@ margin-top:2%;
 }
 
   /*گالری*/
+  
   * {box-sizing:border-box}
 
   /* Slideshow container */
@@ -116,14 +117,8 @@ body, html {
   }
   
   /* Display the columns below each other instead of side by side on small screens */
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-      border-radius: 12%;
-      
-    }
-  }
+ 
+  
   
   /* Add some shadows to create a card effect */
   .content {
@@ -135,7 +130,7 @@ body, html {
   .container {
     padding: 18px;
     border-radius: 12%;
-    font-size: 130%;
+    font-size: 116%;
   }
   
   /* Clear floats */
@@ -156,6 +151,7 @@ body, html {
     .row{
       margin-left:7%;
       margin-top:10%;
+      
     }
     .button {
       border: none;
@@ -223,7 +219,7 @@ body, html {
   body
   {
     background-color: rgb(255, 255, 255);
-    font-family: iran;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
   }
   
@@ -547,6 +543,7 @@ color: red;
 .uuu{
 margin-left: 27%;
 height: 110%;
+
 }
 .sub{
 width: 20%;
@@ -606,7 +603,7 @@ height: 110%;
 text-align: right;
 font-size: 100%;
 margin-top: 8%;
-
+border-radius: 12px;
 
 }
 .LL{
