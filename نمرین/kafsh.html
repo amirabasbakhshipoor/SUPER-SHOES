@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="kafsh.css">
     <link rel="stylesheet" href="xx.css">
+    <link rel="stylesheet" href="vrod.css">
     <title>SUPER SHOES</title>
     <link rel="icon" type="imag/png"  href="imag/2.png">
 </head>
@@ -25,12 +26,81 @@
        <a class="men"  onclick="openNav()">درباره ما</a>
         <input type="text" placeholder="....جستجو">
         
-       
-
-
       </div>
         
       </div>
+      <button  onclick="document.getElementById('id01').style.display='block'" class="btn-sabt-vrod"> ورود/ ثبت نام</button>
+      <!--فرم ورود-->
+
+<div id="id01" class="modal" style="display: none;"> 
+  <div class="form-box1" id="frmi">
+    
+    <span onclick="document.getElementById('id01').style.display='none'"
+    class="close" title="Close Modal">&times;</span>
+    <div class="button-box1">
+    <div id="btnd"></div>
+        <button type="button" class="totg_btn1" onclick="login()">ورود</button>
+        <button type="button" class="totg_btn1" onclick="sabt()">ثبت نام</button>
+    </div>
+    <div class="logo1"><img src="imag/2.png" alt="" class="logo1"></div>
+    <form id="login" class="inputq1">
+       
+     <input type="text" class="inputf1" placeholder="....نام کاربری خود را وارد کنید" required  autofocus >
+     <input type="text" class="inputf1" placeholder="...رمز عبور را وارد کنید" required>
+        <br>
+        
+         
+         <br>
+        <button type="submit" class="sumbit_btn1"> ورود</button>
+        <div class="ppp1">
+    </form>
+    <form class="inputq1" id="sabt1">
+        <input type="text" class="inputf1" placeholder="....شماره همراه خود را وارد کنید" required  autofocus>
+<input type="text" class="inputf1" placeholder="...کد تایید را وارد کنید" required>
+<input type="text" class="inputf1" placeholder="....یک نام کاربری وارد کنید" required  >
+<input type="text" class="inputf1" placeholder="...رمز عبور را وارد کنید" required>
+      
+        <div class="ppp1">
+            
+         </div>
+         <br>
+        <button type="submit" class="sumbit_btn2 "> ثبت نام</button>
+       </form>
+    
+      </div>
+     
+</div>
+
+
+
+</div>
+</div>
+<script >
+  var modal = document.getElementById('id01');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+
+}
+var X= document.getElementById("login");
+    var y= document.getElementById("sabt");
+    var z = document.getElementById("btnd");
+    
+
+    function sabt(){
+      z.style.left="110px";
+        X.style.left="-400px";
+        y.style.left="50px";
+        
+    }
+    function login(){
+      z.style.left="0";
+        X.style.left="50px";
+        y.style.left="450px";
+     
+    }
+</script>
       <img  class="aa" src="imag/2.png" alt="eror"   />
 
       <!--گالری-->
@@ -367,7 +437,6 @@ for (var i = 0; i < btns.length; i++) {
 
 
 
-
-
 </body>
+
 </html>

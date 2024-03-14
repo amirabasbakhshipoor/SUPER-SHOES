@@ -130,7 +130,7 @@ body, html {
   .container {
     padding: 18px;
     border-radius: 12%;
-    font-size: 116%;
+    font-size: 110%;
   }
   
   /* Clear floats */
@@ -156,7 +156,7 @@ body, html {
     .button {
       border: none;
       border-radius: 5px;
-      padding: 13px 85px;
+      padding: 9px 75px;
       font-size: 20px;
       cursor: pointer;
       background-color: #f31212;
